@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Medical Diagnosis Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🏥 AI Medical Diagnosis Assistant</h1>
+
+    <form action="/predict" method="POST">
+
+        <label><input type="checkbox" name="fever" value="1"> Fever</label><br>
+
+        <label><input type="checkbox" name="cough" value="1"> Cough</label><br>
+
+        <label><input type="checkbox" name="headache" value="1"> Headache</label><br>
+
+        <label><input type="checkbox" name="fatigue" value="1"> Fatigue</label><br>
+
+        <label><input type="checkbox" name="body_pain" value="1"> Body Pain</label><br>
+
+        <label><input type="checkbox" name="sore_throat" value="1"> Sore Throat</label><br>
+
+        <label><input type="checkbox" name="nausea" value="1"> Nausea</label><br><br>
+
+        <button type="submit">Predict Disease</button>
+        <br><br>
+
+<a href="/history">
+    <button type="button">View Prediction History</button>
+</a>
+
+    </form>
+
+</div>
+
+</body>
+</html>

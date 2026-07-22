@@ -1,0 +1,11 @@
+fever,cough,headache,fatigue,body_pain,sore_throat,nausea,disease
+1,1,1,1,1,0,0,Flu
+0,1,0,0,0,1,0,Common Cold
+1,0,1,1,0,0,1,Dengue
+0,0,1,1,0,0,1,Migraine
+1,1,0,1,0,1,0,COVID-19
+1,0,0,1,1,0,0,Malaria
+0,0,1,0,0,0,0,Headache
+1,1,1,0,0,0,1,Typhoid
+0,1,0,1,0,1,0,Allergy
+1,0,1,1,1,1,0,Viral Fever
